@@ -18,10 +18,10 @@ public class Mobile {
     private double txBytesStart;
     private double startTime;
     public void startSpeedTest() {
-        // This method is empty since we don't need to do anything to prepare for the speed test
+        
     }
     public String endSpeedTest() {
-        // Download a file to measure the download speed
+
         try {
             URL url = new URL("https://speedtest.net/images/telecom-bg.png");
             URLConnection connection = url.openConnection();
